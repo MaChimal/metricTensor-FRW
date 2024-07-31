@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "relatividad"
+version = "0.1.0"
+description = ""
+authors = ["Mario Alberto Amador Chimal <mariochimal00aa@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^2.7.1"
+sympy = "^1.12"
+einsteinpy = "^0.4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
